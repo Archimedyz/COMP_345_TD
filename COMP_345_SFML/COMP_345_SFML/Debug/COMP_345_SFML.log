@@ -1,0 +1,131 @@
+﻿Build started 11/29/14 12:41:38 PM.
+     1>Project "C:\Users\Awais\Source\Repos\COMP345\COMP_345_SFML\COMP_345_SFML\COMP_345_SFML.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\SFML\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Critter.cpp CritterFactory.cpp CritterHPBarDisplay.cpp DeathTower.cpp Entity.cpp FastCritter.cpp FireTower.cpp GameConstants.cpp LevelUpTower.cpp ThunderTower.cpp main.cpp Map.cpp NearestCritterTowerStrategy.cpp NormalCritter.cpp NormalTower.cpp Observable.cpp Path.cpp Scenery.cpp SlowCritter.cpp Target.cpp Tower.cpp DecoratedTower.cpp Wave.cpp WeakestCritterStrategy.cpp
+         WeakestCritterStrategy.cpp
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\weakestcritterstrategy.cpp(9): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\weakestcritterstrategy.cpp(10): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\weakestcritterstrategy.cpp(11): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\weakestcritterstrategy.cpp(13): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Wave.cpp
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\wave.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\wave.cpp(80): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\wave.cpp(90): warning C4018: '<' : signed/unsigned mismatch
+         DecoratedTower.cpp
+         Tower.cpp
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\tower.cpp(42): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\tower.cpp(43): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         Target.cpp
+         SlowCritter.cpp
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\slowcritter.cpp(10): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Scenery.cpp
+         Path.cpp
+         Observable.cpp
+         NormalTower.cpp
+         NormalCritter.cpp
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\normalcritter.cpp(11): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         NearestCritterTowerStrategy.cpp
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\nearestcrittertowerstrategy.cpp(10): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\nearestcrittertowerstrategy.cpp(11): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\nearestcrittertowerstrategy.cpp(12): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\nearestcrittertowerstrategy.cpp(14): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\nearestcrittertowerstrategy.cpp(19): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Map.cpp
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\map.cpp(158): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\map.cpp(159): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\map.cpp(189): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\map.cpp(190): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\map.cpp(233): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\map.cpp(406): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(135): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(150): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(158): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(166): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(174): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(179): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(185): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(252): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(253): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(413): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(415): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(612): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(615): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(616): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(617): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(618): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(622): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(628): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(638): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(639): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(644): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(645): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(650): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(651): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(843): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(849): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(850): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(858): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(878): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(883): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(888): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(894): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(900): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(906): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(992): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(1020): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(1021): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(1022): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(1023): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(1026): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(1111): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(1123): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(1134): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\main.cpp(1149): warning C4018: '<' : signed/unsigned mismatch
+         ThunderTower.cpp
+         LevelUpTower.cpp
+         GameConstants.cpp
+         FireTower.cpp
+         FastCritter.cpp
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\fastcritter.cpp(11): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Entity.cpp
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\entity.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         DeathTower.cpp
+         CritterHPBarDisplay.cpp
+     1>c:\users\awais\source\repos\comp345\comp_345_sfml\comp_345_sfml\critterhpbardisplay.cpp(16): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         CritterFactory.cpp
+         Critter.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Awais\Source\Repos\COMP345\COMP_345_SFML\Debug\COMP_345_SFML.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SFML\lib "sfml-audio-d.lib" "sfml-graphics-d.lib" "sfml-network-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Awais\Source\Repos\COMP345\COMP_345_SFML\Debug\COMP_345_SFML.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Awais\Source\Repos\COMP345\COMP_345_SFML\Debug\COMP_345_SFML.lib" /MACHINE:X86 Debug\Critter.obj
+         Debug\CritterFactory.obj
+         Debug\CritterHPBarDisplay.obj
+         Debug\DeathTower.obj
+         Debug\Entity.obj
+         Debug\FastCritter.obj
+         Debug\FireTower.obj
+         Debug\GameConstants.obj
+         Debug\LevelUpTower.obj
+         Debug\ThunderTower.obj
+         Debug\main.obj
+         Debug\Map.obj
+         Debug\NearestCritterTowerStrategy.obj
+         Debug\NormalCritter.obj
+         Debug\NormalTower.obj
+         Debug\Observable.obj
+         Debug\Path.obj
+         Debug\Scenery.obj
+         Debug\SlowCritter.obj
+         Debug\Target.obj
+         Debug\Tower.obj
+         Debug\DecoratedTower.obj
+         Debug\Wave.obj
+         Debug\WeakestCritterStrategy.obj
+         COMP_345_SFML.vcxproj -> C:\Users\Awais\Source\Repos\COMP345\COMP_345_SFML\Debug\COMP_345_SFML.exe
+     1>Done Building Project "C:\Users\Awais\Source\Repos\COMP345\COMP_345_SFML\COMP_345_SFML\COMP_345_SFML.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:46.94
